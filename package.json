@@ -1,0 +1,8 @@
+{
+  "name": "ovh-dyndns-updater",
+  "version": "1.0.0",
+  "description": "Updates the dyndns field in ovh domain list with current ip address",
+  "main": "index.js",
+  "author": "Sachin Pande",
+  "license": "ISC"
+}
