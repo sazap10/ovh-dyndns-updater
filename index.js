@@ -20,10 +20,10 @@ var prevIp;
 
 const ipUpdater = () => {
     got(ipUrl)
-        .then(function (res) {
+        .then((res) => {
             return res.body;
         })
-        .then(function (ip) {
+        .then((ip) =>  {
             if (!prevIp || prevIp !== ip) {
                 prevIp = ip;
                 const opts = {
@@ -35,7 +35,7 @@ const ipUpdater = () => {
                 return got(url, opts);
             }
         })
-        .catch(function (err) {
+        .catch( (err) => {
             console.error(err);
             console.error(err.response && err.response.body);
         });
