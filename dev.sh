@@ -1,0 +1,3 @@
+export DOMAIN=[DOMAIN NAME];
+export USERNAME=[USERNAME];
+export PASSWORD=[PASSWORD];
