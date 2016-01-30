@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "Sachin Pande",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:sazap10/ovh-dyndns-updater.git"
+  },
   "dependencies": {
     "cron": "^1.1.0",
     "envalid": "^0.2.0",
